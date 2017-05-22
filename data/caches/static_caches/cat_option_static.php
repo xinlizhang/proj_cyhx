@@ -1,6 +1,6 @@
 <?php
 $data = array (
-  0 => 
+  1 => 
   array (
     'cat_id' => '1',
     'cat_name' => '鱼',
@@ -12,6 +12,9 @@ $data = array (
     'sort_order' => '50',
     'has_children' => '0',
     'goods_num' => '1',
+    'level' => 0,
+    'id' => '1',
+    'name' => '鱼',
   ),
 );
 ?>

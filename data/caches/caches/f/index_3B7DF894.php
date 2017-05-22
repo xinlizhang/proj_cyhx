@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:5:{i:0;s:40:"/data/web/vshop/themes/default/index.dwt";i:1;s:52:"/data/web/vshop/themes/default/library/cat_goods.lbi";i:2;s:58:"/data/web/vshop/themes/default/library/page_index_menu.lbi";i:3;s:55:"/data/web/vshop/themes/default/library/search_index.lbi";i:4;s:54:"/data/web/vshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1495277235;s:8:"maketime";i:1495273635;}<!DOCTYPE html>
+<?php exit;?>a:3:{s:8:"template";a:5:{i:0;s:40:"/data/web/vshop/themes/default/index.dwt";i:1;s:52:"/data/web/vshop/themes/default/library/cat_goods.lbi";i:2;s:58:"/data/web/vshop/themes/default/library/page_index_menu.lbi";i:3;s:55:"/data/web/vshop/themes/default/library/search_index.lbi";i:4;s:54:"/data/web/vshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1495362436;s:8:"maketime";i:1495358836;}<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta name="Generator" content="ECTouch 2.2.25" />
@@ -73,7 +73,17 @@
   </div>
   <div class="index-theme" style="display:none">
       <ul class="index-more-list">
-            </ul>
+      <div class="index-more-icon"><span>鱼</span></div>
+     
+    <div class="single_item">
+        <li class="fl" style="background-color: #FFFFFF;">
+          <a href="/vshop/index.php?m=default&c=goods&a=index&id=1&u=0"><img src="/vshop/data/common/images/no_picture.gif" alt="鲤鱼" /></a>
+      <a href="/vshop/index.php?m=default&c=goods&a=index&id=1&u=0"><p>鲤鱼</p></a>
+      <span>￥1元</span>
+    </li>
+    </div>
+     
+      </ul>
   </div>
 	<div class="index-more">
   	<div class="index-more-icon">
