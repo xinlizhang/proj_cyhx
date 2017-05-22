@@ -1720,3 +1720,15 @@ UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495430740', ip = '118.206.87
 
 DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495428940
 
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'd04fdd9554225fcb34af2b70b08f12ba'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495401940'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495401940
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495430920', ip = '118.206.87.12', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495402120;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd04fdd9554225fcb34af2b70b08f12ba' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495429120
+
