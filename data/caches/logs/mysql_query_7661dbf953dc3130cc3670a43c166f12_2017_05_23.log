@@ -1,0 +1,614 @@
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495439838'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495439838
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495468818', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495440018;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495467018
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495467018
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495440018'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495440018
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495468998', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495440198;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495467198
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495467198
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495440198'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495440198
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495469178', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495440378;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495467378
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495440378'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495440378
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495469358', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495440558;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495467558
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495467558
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495440558'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495440558
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495469538', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495440738;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495467738
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495467738
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495440738'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495440738
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495469718', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495440918;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495467918
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495440918'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495440918
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495469898', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495441098;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495468098
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495441098'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495441098
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495470078', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495441278;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495468278
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495441278'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495441278
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495470258', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495441458;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495468458
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495468458
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495441458'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495441458
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495470438', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495441638;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495468638
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495441638'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495441638
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495470618', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495441818;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495468818
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495468818
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495441818'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495441818
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495470798', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495441998;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495468998
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495468998
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495441998'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495441998
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495470978', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495442178;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495469178
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495442178'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495442178
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495471158', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495442358;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495469358
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495469358
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495442358'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495442358
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495471338', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495442538;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495469538
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495469538
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495442538'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495442538
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495471518', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495442718;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495469718
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495442718'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495442718
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495471698', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495442898;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495469898
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495442898'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495442898
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495471878', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495443078;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495470078
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495470078
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495443078'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495443078
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495472058', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495443258;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495470258
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495443258'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495443258
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495472238', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495443438;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495470438
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495470438
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495443438'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495443438
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495472418', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495443618;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495470618
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495470618
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495443618'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495443618
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495472598', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495443798;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495470798
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495443798'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495443798
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495472778', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495443978;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495470978
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495470978
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495443978'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495443978
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495472958', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495444158;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495471158
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495444158'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495444158
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495473138', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495444338;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495471338
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495444338'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495444338
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495473318', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495444518;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495471518
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '24209e8313f03655863363c7f9702021'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495444518'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495444518
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495473498', ip = '175.17.198.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1495444698;}' WHERE sesskey = '24209e8313f03655863363c7f9702021' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495471698
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495471698
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('f378a6ba72ed2c14d1bf628a62df5625', '1495516083', '106.38.0.105', 'a:0:{}')
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('75f49ad6673c220e5d554c4939d3960b', '1495516083', '106.38.0.105', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT user_id, user_name, password, action_list, last_login  FROM `db_fresh_shop`.`cy_admin_user` WHERE user_id = '1'
+
+SELECT user_id, user_name, password, action_list, last_login  FROM `db_fresh_shop`.`cy_admin_user` WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_admin_user` SET last_login = '1495487283', last_ip = '106.38.0.105' WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_admin_user` SET last_login = '1495487283', last_ip = '106.38.0.105' WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495516083', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:0:\"\";}' WHERE sesskey = 'f378a6ba72ed2c14d1bf628a62df5625' LIMIT 1
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495516083', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:0:\"\";}' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `db_fresh_shop`.`cy_payment` WHERE enabled = '1' ORDER BY pay_order
+
+SELECT * FROM `db_fresh_shop`.`cy_payment` WHERE enabled = '1' ORDER BY pay_order
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495516084', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495487284;}' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495514284
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `db_fresh_shop`.`cy_shop_config` WHERE type<>'hidden'   AND (parent_id<>'5' AND id<>'5') ORDER BY parent_id, sort_order, id
+
+SELECT region_id, region_name FROM `db_fresh_shop`.`cy_region` WHERE region_type = '0' AND parent_id = '0'
+
+SELECT region_id, region_name FROM `db_fresh_shop`.`cy_region` WHERE region_type = '1' AND parent_id = '1'
+
+SELECT region_id, region_name FROM `db_fresh_shop`.`cy_region` WHERE region_type = '2' AND parent_id = '18'
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT rank_id, rank_name, min_points FROM `db_fresh_shop`.`cy_user_rank` ORDER BY min_points ASC 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users` WHERE 1 
+
+SELECT user_id, user_name,sex,birthday,mobile_phone,email, is_validated, user_money, frozen_money, rank_points, pay_points, reg_time  FROM `db_fresh_shop`.`cy_users` WHERE 1  ORDER by user_id DESC LIMIT 0,15
+
+DESC `db_fresh_shop`.`cy_sessions_data`
+
+INSERT INTO `db_fresh_shop`.`cy_sessions_data` (sesskey, expiry, data) VALUES ('75f49ad6673c220e5d554c4939d3960b', '1495516105', 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495487284;s:9:\"user_list\";a:4:{i:0;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:8:\"tt483298\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"2411495431714@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2017-05-22\";}i:1;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:6:\"abcdef\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"e801495283663@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2017-05-20\";}i:2;a:12:{s:7:\"user_id\";s:1:\"2\";s:9:\"user_name\";s:15:\"wx_149528263654\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:30:\"wx_149528263654@disanqiche.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2017-05-20\";}i:3;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_149527659740\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:30:\"wx_149527659740@disanqiche.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"1\";s:10:\"pay_points\";s:1:\"1\";s:8:\"reg_time\";s:10:\"2017-05-20\";}}}')ON DUPLICATE KEY UPDATE expiry = expiry + 1495516105, data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495487284;s:9:\"user_list\";a:4:{i:0;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:8:\"tt483298\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"2411495431714@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2017-05-22\";}i:1;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:6:\"abcdef\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"e801495283663@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2017-05-20\";}i:2;a:12:{s:7:\"user_id\";s:1:\"2\";s:9:\"user_name\";s:15:\"wx_149528263654\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:30:\"wx_149528263654@disanqiche.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2017-05-20\";}i:3;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_149527659740\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:30:\"wx_149527659740@disanqiche.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"1\";s:10:\"pay_points\";s:1:\"1\";s:8:\"reg_time\";s:10:\"2017-05-20\";}}}'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495516105', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = '' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT data, expiry FROM `db_fresh_shop`.`cy_sessions_data` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT user_name FROM `db_fresh_shop`.`cy_users` WHERE user_id  IN ('4','3','2','1') 
+
+INSERT INTO `db_fresh_shop`.`cy_admin_log` (log_time, user_id, log_info, ip_address)  VALUES ('1495487321', 1, '批量删除会员账号: wx_149527659740,wx_149528263654,abcdef,tt483298', '106.38.0.105')
+
+DESC `db_fresh_shop`.`cy_sessions_data`
+
+INSERT INTO `db_fresh_shop`.`cy_sessions_data` (sesskey, expiry, data) VALUES ('75f49ad6673c220e5d554c4939d3960b', '1495516121', 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495487284;s:9:\"user_list\";a:4:{i:0;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:8:\"tt483298\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"2411495431714@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2017-05-22\";}i:1;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:6:\"abcdef\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"e801495283663@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2017-05-20\";}i:2;a:12:{s:7:\"user_id\";s:1:\"2\";s:9:\"user_name\";s:15:\"wx_149528263654\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:30:\"wx_149528263654@disanqiche.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2017-05-20\";}i:3;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_149527659740\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:30:\"wx_149527659740@disanqiche.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"1\";s:10:\"pay_points\";s:1:\"1\";s:8:\"reg_time\";s:10:\"2017-05-20\";}}}')ON DUPLICATE KEY UPDATE expiry = expiry + 1495516121, data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495487284;s:9:\"user_list\";a:4:{i:0;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:8:\"tt483298\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"2411495431714@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2017-05-22\";}i:1;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:6:\"abcdef\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"e801495283663@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2017-05-20\";}i:2;a:12:{s:7:\"user_id\";s:1:\"2\";s:9:\"user_name\";s:15:\"wx_149528263654\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:30:\"wx_149528263654@disanqiche.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2017-05-20\";}i:3;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_149527659740\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:30:\"wx_149527659740@disanqiche.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"1\";s:10:\"pay_points\";s:1:\"1\";s:8:\"reg_time\";s:10:\"2017-05-20\";}}}'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495516121', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = '' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT data, expiry FROM `db_fresh_shop`.`cy_sessions_data` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT rank_id, rank_name, min_points FROM `db_fresh_shop`.`cy_user_rank` ORDER BY min_points ASC 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users` WHERE 1 
+
+SELECT user_id, user_name,sex,birthday,mobile_phone,email, is_validated, user_money, frozen_money, rank_points, pay_points, reg_time  FROM `db_fresh_shop`.`cy_users` WHERE 1  ORDER by user_id DESC LIMIT 0,15
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495516124', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495487284;s:9:\"user_list\";a:0:{}}' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495514324
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495514324
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `db_fresh_shop`.`cy_shop_config` WHERE type<>'hidden'   AND (parent_id<>'5' AND id<>'5') ORDER BY parent_id, sort_order, id
+
+SELECT region_id, region_name FROM `db_fresh_shop`.`cy_region` WHERE region_type = '0' AND parent_id = '0'
+
+SELECT region_id, region_name FROM `db_fresh_shop`.`cy_region` WHERE region_type = '1' AND parent_id = '1'
+
+SELECT region_id, region_name FROM `db_fresh_shop`.`cy_region` WHERE region_type = '2' AND parent_id = '18'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495516182', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495487284;s:9:\"user_list\";a:0:{}}' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495514382
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495514382
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `db_fresh_shop`.`cy_payment` WHERE enabled = '1' ORDER BY pay_order
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495514383
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `db_fresh_shop`.`cy_payment` WHERE pay_code = 'wxpay' AND enabled = '1'
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495514386
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495514409
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495514415
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495487284'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495487284
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495516276', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495487476;s:9:\"user_list\";a:0:{}}' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495514476
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495487476'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495487476
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495516478', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495487678;s:9:\"user_list\";a:0:{}}' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495514678
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495487678'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495487678
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495516789', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495487989;s:9:\"user_list\";a:0:{}}' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495514989
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT code FROM `db_fresh_shop`.`cy_plugins`
+
+SELECT user_id, user_name, email, nav_list FROM `db_fresh_shop`.`cy_admin_user` WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495516929', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495487989;s:9:\"user_list\";a:0:{}}' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495487989'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495487989
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495487989'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495487989
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495517110', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495488310;s:9:\"user_list\";a:0:{}}' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495515310
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495515310
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495517110', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495488310;s:9:\"user_list\";a:0:{}}' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495515310
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT agency_id FROM `db_fresh_shop`.`cy_admin_user` WHERE user_id = '1'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` AS o WHERE 1 
+
+SELECT o.order_id, o.order_sn, o.add_time, o.order_status, o.shipping_status, o.order_amount, o.money_paid,o.pay_status, o.consignee, o.address, o.email, o.tel, o.extension_code, o.extension_id, (   o.goods_amount + o.tax + o.shipping_fee + o.insure_fee + o.pay_fee + o.pack_fee + o.card_fee ) AS total_fee, IFNULL(u.user_name, '匿名用户') AS buyer  FROM `db_fresh_shop`.`cy_order_info` AS o  LEFT JOIN `db_fresh_shop`.`cy_users` AS u ON u.user_id=o.user_id WHERE 1  ORDER BY add_time DESC  LIMIT 0,15
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495517137', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495488310;s:9:\"user_list\";a:0:{}}' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1495515337
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495488310'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495488310
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495517318', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495488518;s:9:\"user_list\";a:0:{}}' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495515518
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1495488518'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1495488518
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1495517538', ip = '106.38.0.105', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1495488738;s:9:\"user_list\";a:0:{}}' WHERE sesskey = '75f49ad6673c220e5d554c4939d3960b' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1495515738
+
