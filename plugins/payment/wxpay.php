@@ -26,6 +26,7 @@ class wxpay
 
     var $parameters; // cft 参数
     var $payment; // 配置信息
+    var $payResult;
     /**
      * 生成支付代码
      *
@@ -72,12 +73,12 @@ class wxpay
      */
     function callback($data)
     {
-        return true;
-        if ($data['status'] == 1) {
-            return true;
-        } else {
-            return false;
-        }
+        return $this->payResult;
+//        if ($data['status'] == 1) {
+//            return true;
+//        } else {
+//            return false;
+//        }
     }
 
     /**
@@ -151,13 +152,16 @@ class wxpay
                     }
                 }
                 $returndata['return_code'] = 'SUCCESS';
+                $this->payResult = true;
             } else {
                 $returndata['return_code'] = 'FAIL';
                 $returndata['return_msg'] = '签名失败';
+                $this->payResult = false;
             }
         } else {
             $returndata['return_code'] = 'FAIL';
             $returndata['return_msg'] = '无数据返回';
+            $this->payResult = false;
         }
         // 数组转化为xml
         $xml = "<xml>";

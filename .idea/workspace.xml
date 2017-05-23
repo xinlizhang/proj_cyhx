@@ -37,8 +37,8 @@
       <file leaf-file-name="RespondController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+            <state relative-caret-position="450">
+              <caret line="49" column="45" lean-forward="false" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -57,12 +57,12 @@
       <file leaf-file-name="wxpay.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="74" column="20" lean-forward="false" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+            <state relative-caret-position="362">
+              <caret line="76" column="4" lean-forward="true" selection-start-line="76" selection-start-column="4" selection-end-line="80" selection-end-column="11" />
               <folding>
-                <marker date="1495546768000" expanded="true" signature="2019:2721" ph="..." />
-                <marker date="1495546768000" expanded="true" signature="2765:2782" ph="..." />
-                <marker date="1495546768000" expanded="true" signature="2829:2854" ph="..." />
+                <marker date="1495547413000" expanded="true" signature="2039:2741" ph="..." />
+                <marker date="1495547413000" expanded="true" signature="2785:2802" ph="..." />
+                <marker date="1495547413000" expanded="true" signature="2849:2874" ph="..." />
               </folding>
             </state>
           </provider>
@@ -115,7 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wechat_ext</find>
       <find>wechat_exten</find>
       <find>wechat_extend</find>
       <find>wechat_id</find>
@@ -132,7 +131,6 @@
       <find>本ci支付失败</find>
       <find>callback</find>
       <find>$data['status']</find>
-      <find>$data</find>
       <find>b</find>
       <find>ben ci</find>
       <find>本次</find>
@@ -145,6 +143,8 @@
       <find>本次支付shi bai</find>
       <find>本次支付失败</find>
       <find>pay_fail</find>
+      <find>$data</find>
+      <find>postXmlCurl</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -275,12 +275,12 @@
       <workItem from="1495431661183" duration="23000" />
       <workItem from="1495515568973" duration="1369000" />
       <workItem from="1495536024250" duration="3546000" />
-      <workItem from="1495545649360" duration="1026000" />
+      <workItem from="1495545649360" duration="1667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6128000" />
+    <option name="totallyTimeSpent" value="6769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -536,20 +536,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+        <state relative-caret-position="450">
+          <caret line="49" column="45" lean-forward="false" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="74" column="20" lean-forward="false" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+        <state relative-caret-position="362">
+          <caret line="76" column="4" lean-forward="true" selection-start-line="76" selection-start-column="4" selection-end-line="80" selection-end-column="11" />
           <folding>
-            <marker date="1495546768000" expanded="true" signature="2019:2721" ph="..." />
-            <marker date="1495546768000" expanded="true" signature="2765:2782" ph="..." />
-            <marker date="1495546768000" expanded="true" signature="2829:2854" ph="..." />
+            <marker date="1495547413000" expanded="true" signature="2039:2741" ph="..." />
+            <marker date="1495547413000" expanded="true" signature="2785:2802" ph="..." />
+            <marker date="1495547413000" expanded="true" signature="2849:2874" ph="..." />
           </folding>
         </state>
       </provider>
