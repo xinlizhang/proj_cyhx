@@ -26,7 +26,7 @@ class wxpay
 
     var $parameters; // cft 参数
     var $payment; // 配置信息
-    var $payResult;
+    var $payResult = false;
     /**
      * 生成支付代码
      *
@@ -156,12 +156,10 @@ class wxpay
             } else {
                 $returndata['return_code'] = 'FAIL';
                 $returndata['return_msg'] = '签名失败';
-                $this->payResult = false;
             }
         } else {
             $returndata['return_code'] = 'FAIL';
             $returndata['return_msg'] = '无数据返回';
-            $this->payResult = false;
         }
         // 数组转化为xml
         $xml = "<xml>";
