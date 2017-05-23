@@ -150,6 +150,7 @@ class wxpay
                     }
                 }
                 $returndata['return_code'] = 'SUCCESS';
+                $data['status'] = 1;
             } else {
                 $returndata['return_code'] = 'FAIL';
                 $returndata['return_msg'] = '签名失败';
