@@ -98,7 +98,19 @@ class CommonController extends BaseController
         // 初始化session
         self::$sess = new EcsSession(self::$db, self::$ecs->table('sessions'), self::$ecs->table('sessions_data'), C('COOKIE_PREFIX').'touch_id');
         define('SESS_ID', self::$sess->get_session_id());
-        
+
+        if( preg_match('/micromessenger/', strtolower($_SERVER['HTTP_USER_AGENT']))){
+            if(!isset($_SESSION["openid"])||empty($_SESSION["openid"])){//openid为空
+                if(isset($_COOKIE["openid"]) && !empty($_COOKIE["openid"])){
+                    $_SESSION["openid"]=$_COOKIE["openid"];
+                }else{
+                    include_once (ROOT_PATH . 'plugins/payment/wxpay.php');
+                    $payObj = new wxpay();
+                    $payObj->getOpenId();
+                }
+            }
+        }
+
         // 创建 Smarty 对象
         self::$view = new EcsTemplate();
         self::$view->cache_lifetime = C('cache_time');
