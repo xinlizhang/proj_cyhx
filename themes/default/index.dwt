@@ -16,7 +16,7 @@
 <div class="con">
 <div class="index-max-box">
 {if !$subscribe}
-<div class="ect-attention dis-box" >
+<!--div class="ect-attention dis-box" >
 	<div class="attention-img"><img src="__TPL__/images/attention-logo.png"></div>
 	<div class="attention-text box-flex">
 		<p style="font-size: 1rem;"><span style="color:#fff">欢迎进入</span><span style="color:#57C850"> 微商城</span></p>
@@ -25,7 +25,7 @@
 	<div class="attention-button" style="  padding-top:0.8rem;">
 		<a class='lizhuanz'><button class="button">立即关注</button></a>
 	</div>
-</div>
+</div-->
 {/if}
 <header class="index-header comWidth">
   <i class="index-header-menu iconfont fl" onclick="window.location = '{:url('category/top_all')}'">&#xe627;</i>
@@ -37,16 +37,16 @@
 </header>
 </div>
 <!--立即关注-->
-<div class="index-guanz-t"> 
+<!--div class="index-guanz-t">
 	<div class="index-guanz-show">		
 		<img src="__TPL__/images/guanzm.png">
 		<p><span class="left">长按二维码关注公众号</span><span class="right index-show-close">关闭</span></p>
 	</div>
 	<div class="index-guanz-bg"></div>
-</div>
+</div-->
 
 </script>
-<div class="index-main comWidth">
+<!--div class="index-main comWidth">
     <div class="swiper-container">
       <div class="swiper-wrapper">
         {insert name='ads' id=255 num=3}
@@ -90,7 +90,7 @@
         <a href="javascript:;" style="text-align:center" class="get_more"></a>
       </ul>
   </div>
-</div>
+</div-->
 
 <footer class="index-footer comWidth">
 	<!-- #BeginLibraryItem "/library/page_index_menu.lbi" --><!-- #EndLibraryItem -->

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c913e9b9-62e2-4b19-9d88-8e21778bf9b9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php" afterPath="$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/payment/wxpay.php" afterPath="$PROJECT_DIR$/plugins/payment/wxpay.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/index.dwt" afterPath="$PROJECT_DIR$/themes/default/index.dwt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/respond.dwt" afterPath="$PROJECT_DIR$/themes/default/respond.dwt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,21 +17,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RespondController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RespondController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+            <state relative-caret-position="486">
+              <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="respond.dwt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="respond.dwt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/default/respond.dwt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="525">
+              <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.dwt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default/index.dwt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/apps/admin/languages/zh_cn/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -38,7 +60,7 @@
       <file leaf-file-name="wxpay.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="836">
               <caret line="135" column="54" lean-forward="true" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="54" />
               <folding>
                 <marker date="1495627943000" expanded="true" signature="2019:2721" ph="..." />
@@ -103,34 +125,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/init.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7005">
-              <caret line="467" column="3" lean-forward="false" selection-start-line="467" selection-start-column="1" selection-end-line="467" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="alipay.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/payment/alipay.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1650">
               <caret line="121" column="18" lean-forward="false" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dzp.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/wechat/dzp/dzp.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4305">
-              <caret line="298" column="72" lean-forward="false" selection-start-line="298" selection-start-column="59" selection-end-line="298" selection-end-column="72" />
-              <folding>
-                <marker date="1452655982000" expanded="true" signature="5034:5371" ph="SELECT u.nic... ${model('Base')-&gt;model-&gt;pre}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -146,14 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>本次支付shi ba</find>
-      <find>本次支付shi bai</find>
-      <find>本次支付失败</find>
-      <find>pay_fail</find>
-      <find>$data</find>
-      <find>get_payment</find>
-      <find>postXmlCurl</find>
-      <find>parameters</find>
       <find>-&gt;payment</find>
       <find>notify</find>
       <find>$msg = (@$payobj-&gt;notify($this-&gt;data)) ? L('pay_success') : L('pay_fail');</find>
@@ -176,6 +168,14 @@
       <find>payResult</find>
       <find>pay_success</find>
       <find>return_url</find>
+      <find>$vgoods</find>
+      <find>fa</find>
+      <find>fan hui</find>
+      <find>返回</find>
+      <find>返回shou ye</find>
+      <find>返回首页</find>
+      <find>back_home</find>
+      <find>p-link</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -193,6 +193,8 @@
         <option value="$PROJECT_DIR$/include/apps/default/controllers/CommonController.class.php" />
         <option value="$PROJECT_DIR$/plugins/payment/wxpay.php" />
         <option value="$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php" />
+        <option value="$PROJECT_DIR$/themes/default/respond.dwt" />
+        <option value="$PROJECT_DIR$/themes/default/index.dwt" />
       </list>
     </option>
   </component>
@@ -232,6 +234,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="proj_cyhx" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj_cyhx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj_cyhx" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj_cyhx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj_cyhx" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,12 +309,12 @@
       <workItem from="1495515568973" duration="1369000" />
       <workItem from="1495536024250" duration="3546000" />
       <workItem from="1495545649360" duration="3933000" />
-      <workItem from="1495624044747" duration="3700000" />
+      <workItem from="1495624044747" duration="4394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12735000" />
+    <option name="totallyTimeSpent" value="13429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -636,14 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/respond.dwt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/helpers/payment_helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
@@ -672,9 +698,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="836">
           <caret line="135" column="54" lean-forward="true" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="54" />
           <folding>
             <marker date="1495627943000" expanded="true" signature="2019:2721" ph="..." />
@@ -684,10 +718,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php">
+    <entry file="file://$PROJECT_DIR$/include/apps/admin/languages/zh_cn/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+        <state relative-caret-position="235">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/index.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/respond.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
           <folding />
         </state>
       </provider>
