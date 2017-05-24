@@ -26,7 +26,12 @@ class wxpay
 
     var $parameters; // cft 参数
     var $payment; // 配置信息
-    var $payResult = false;
+    var $payResult;
+
+    public function __construct()
+    {
+        $this->payResult = false;
+    }
     /**
      * 生成支付代码
      *
@@ -108,7 +113,7 @@ class wxpay
             foreach ($Parameters as $k => $v) {
                 $buff .= $k . "=" . $v . "&";
             }
-            $String;
+            $String = "";
             if (strlen($buff) > 0) {
                 $String = substr($buff, 0, strlen($buff) - 1);
             }
