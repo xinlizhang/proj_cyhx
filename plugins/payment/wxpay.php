@@ -149,7 +149,7 @@ class wxpay
                         send_wechat_message('pay_remind', '', $order_trade_no[0] . ' 订单已支付', $order_url, $order_trade_no[0]);
                     }
                 }
-                $_SERVER['PAY_RESULT'] = true;
+                $_SESSION['PAY_RESULT'] = true;
                 $returndata['return_code'] = 'SUCCESS';
             } else {
                 $returndata['return_code'] = 'FAIL';
