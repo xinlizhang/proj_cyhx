@@ -20,7 +20,7 @@ class RespondController extends CommonController
 {
 
     private $data;
-    private $payResult;
+    static private $payResult;
 
     public function __construct()
     {
@@ -53,9 +53,9 @@ class RespondController extends CommonController
 //                $msg = (@$payobj->callback($this->data)) ? L('pay_success') : L('pay_fail');
 
                 if($this->data['type'] == 'notify'){
-                    $this->payResult = @$payobj->notify($this->data);
+                    $payResult = @$payobj->notify($this->data);
                 }
-                $msg = ($this->payResult) ? L('pay_success') : L('pay_fail');
+                $msg = ($payResult) ? L('pay_success') : L('pay_fail');
 
             } else {
                 $msg = L('pay_not_exist');
