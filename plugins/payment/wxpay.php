@@ -26,12 +26,6 @@ class wxpay
 
     var $parameters; // cft 参数
     var $payment; // 配置信息
-    var $payResult;
-
-    public function __construct()
-    {
-        $this->payResult = false;
-    }
     /**
      * 生成支付代码
      *
@@ -78,12 +72,11 @@ class wxpay
      */
     function callback($data)
     {
-        return $this->payResult;
-//        if ($data['status'] == 1) {
-//            return true;
-//        } else {
-//            return false;
-//        }
+        if ($data['status'] == 1) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     /**
@@ -113,7 +106,7 @@ class wxpay
             foreach ($Parameters as $k => $v) {
                 $buff .= $k . "=" . $v . "&";
             }
-            $String = "";
+            $String;
             if (strlen($buff) > 0) {
                 $String = substr($buff, 0, strlen($buff) - 1);
             }
@@ -127,7 +120,6 @@ class wxpay
             if ($wxsign == $sign) {
                 // 交易成功
                 if ($postdata['result_code'] == 'SUCCESS') {
-                    $this->payResult = true;
                     // 获取log_id
                     $out_trade_no = explode('B', $postdata['out_trade_no']);
                     $log_id = $out_trade_no[1]; // 订单号log_id
@@ -157,6 +149,7 @@ class wxpay
                         send_wechat_message('pay_remind', '', $order_trade_no[0] . ' 订单已支付', $order_url, $order_trade_no[0]);
                     }
                 }
+                $_SERVER['PAY_RESULT'] = true;
                 $returndata['return_code'] = 'SUCCESS';
             } else {
                 $returndata['return_code'] = 'FAIL';
@@ -177,8 +170,7 @@ class wxpay
         $xml .= "</xml>";
 
         echo $xml;
-        return $this->payResult;
-//        exit();
+        exit();
     }
 
     function trimString($value)
