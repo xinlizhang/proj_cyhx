@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c913e9b9-62e2-4b19-9d88-8e21778bf9b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/index.dwt" afterPath="$PROJECT_DIR$/themes/default/index.dwt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/default/images/copyright.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/article_cat.dwt" afterPath="$PROJECT_DIR$/themes/default/article_cat.dwt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/article_info.dwt" afterPath="$PROJECT_DIR$/themes/default/article_info.dwt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/article_list.dwt" afterPath="$PROJECT_DIR$/themes/default/article_list.dwt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/aution.dwt" afterPath="$PROJECT_DIR$/themes/default/aution.dwt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/aution_record.dwt" afterPath="$PROJECT_DIR$/themes/default/aution_record.dwt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/goods_comment_list.dwt" afterPath="$PROJECT_DIR$/themes/default/goods_comment_list.dwt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/library/goods_list_snatch.lbi" afterPath="$PROJECT_DIR$/themes/default/library/goods_list_snatch.lbi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/library/goods_list_topic.lbi" afterPath="$PROJECT_DIR$/themes/default/library/goods_list_topic.lbi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/user_order_comment_list.dwt" afterPath="$PROJECT_DIR$/themes/default/user_order_comment_list.dwt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/user_order_detail.dwt" afterPath="$PROJECT_DIR$/themes/default/user_order_detail.dwt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/user_order_goods_comment_list.dwt" afterPath="$PROJECT_DIR$/themes/default/user_order_goods_comment_list.dwt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/user_order_list.dwt" afterPath="$PROJECT_DIR$/themes/default/user_order_list.dwt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/wholesale.dwt" afterPath="$PROJECT_DIR$/themes/default/wholesale.dwt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +50,8 @@
       <file leaf-file-name="index.dwt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/default/index.dwt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            <state relative-caret-position="382">
+              <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -143,8 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>-&gt;payment</find>
-      <find>notify</find>
       <find>$msg = (@$payobj-&gt;notify($this-&gt;data)) ? L('pay_success') : L('pay_fail');</find>
       <find>notify(</find>
       <find>pay_not_exist</find>
@@ -173,6 +184,8 @@
       <find>返回首页</find>
       <find>back_home</find>
       <find>p-link</find>
+      <find>copyright.png</find>
+      <find>logo.png</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -306,12 +319,12 @@
       <workItem from="1495515568973" duration="1369000" />
       <workItem from="1495536024250" duration="3546000" />
       <workItem from="1495545649360" duration="3933000" />
-      <workItem from="1495624044747" duration="4876000" />
+      <workItem from="1495624044747" duration="5353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13911000" />
+    <option name="totallyTimeSpent" value="14388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -733,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/default/index.dwt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        <state relative-caret-position="382">
+          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding />
         </state>
       </provider>
