@@ -47,6 +47,7 @@ class RespondController extends CommonController
                 $payobj = new $this->data['code']();
                 // 处理异步请求
                 if($this->data['type'] == 'notify'){
+                    $_SESSION['PAY_RESULT'] = true;
                     @$payobj->notify($this->data);
                 }
 //                $msg = (@$payobj->callback($this->data)) ? L('pay_success') : L('pay_fail');
