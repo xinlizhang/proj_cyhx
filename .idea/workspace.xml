@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c913e9b9-62e2-4b19-9d88-8e21778bf9b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php" afterPath="$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/payment/wxpay.php" afterPath="$PROJECT_DIR$/plugins/payment/wxpay.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="RespondController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+            <state relative-caret-position="463">
+              <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -37,12 +38,12 @@
       <file leaf-file-name="wxpay.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="826">
-              <caret line="151" column="16" lean-forward="false" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="47" />
+            <state relative-caret-position="364">
+              <caret line="135" column="54" lean-forward="true" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="54" />
               <folding>
-                <marker date="1495626929000" expanded="true" signature="2019:2721" ph="..." />
-                <marker date="1495626929000" expanded="true" signature="2765:2782" ph="..." />
-                <marker date="1495626929000" expanded="true" signature="2829:2854" ph="..." />
+                <marker date="1495627943000" expanded="true" signature="2019:2721" ph="..." />
+                <marker date="1495627943000" expanded="true" signature="2765:2782" ph="..." />
+                <marker date="1495627943000" expanded="true" signature="2829:2854" ph="..." />
               </folding>
             </state>
           </provider>
@@ -52,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/respond.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="60" />
+              <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -62,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/include/helpers/payment_helper.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="519">
-              <caret line="277" column="37" lean-forward="true" selection-start-line="277" selection-start-column="37" selection-end-line="277" selection-end-column="37" />
+              <caret line="277" column="37" lean-forward="false" selection-start-line="277" selection-start-column="37" selection-end-line="277" selection-end-column="37" />
               <folding>
                 <marker date="1452655998000" expanded="true" signature="313:418" ph="SELECT * FRO... ${$global-&gt;ecs-&gt;table('payment')}" />
                 <marker date="1452655998000" expanded="true" signature="1012:1119" ph="SELECT log_i... ${$global-&gt;ecs-&gt;table('pay_log')}" />
@@ -94,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/CommonController.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-736">
-              <caret line="97" column="21" lean-forward="true" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+              <caret line="97" column="21" lean-forward="false" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
               <folding>
                 <marker date="1495476178000" expanded="true" signature="2813:2864" ph="..." />
               </folding>
@@ -274,12 +275,12 @@
       <workItem from="1495515568973" duration="1369000" />
       <workItem from="1495536024250" duration="3546000" />
       <workItem from="1495545649360" duration="3933000" />
-      <workItem from="1495624044747" duration="3453000" />
+      <workItem from="1495624044747" duration="3700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12488000" />
+    <option name="totallyTimeSpent" value="12735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -389,9 +390,9 @@
         <state relative-caret-position="450">
           <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
           <folding>
-            <marker date="1495626929000" expanded="true" signature="2019:2721" ph="..." />
-            <marker date="1495626929000" expanded="true" signature="2765:2782" ph="..." />
-            <marker date="1495626929000" expanded="true" signature="2829:2854" ph="..." />
+            <marker date="1495627943000" expanded="true" signature="2019:2721" ph="..." />
+            <marker date="1495627943000" expanded="true" signature="2765:2782" ph="..." />
+            <marker date="1495627943000" expanded="true" signature="2829:2854" ph="..." />
           </folding>
         </state>
       </provider>
@@ -593,7 +594,7 @@
         <state relative-caret-position="485">
           <caret line="89" column="32" lean-forward="false" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
           <folding>
-            <element signature="e#7#610#0#PHP" expanded="true" />
+            <element signature="e#7#610#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -617,7 +618,7 @@
     <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/CommonController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-736">
-          <caret line="97" column="21" lean-forward="true" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+          <caret line="97" column="21" lean-forward="false" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
           <folding>
             <marker date="1495476178000" expanded="true" signature="2813:2864" ph="..." />
           </folding>
@@ -646,7 +647,7 @@
     <entry file="file://$PROJECT_DIR$/include/helpers/payment_helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
-          <caret line="277" column="37" lean-forward="true" selection-start-line="277" selection-start-column="37" selection-end-line="277" selection-end-column="37" />
+          <caret line="277" column="37" lean-forward="false" selection-start-line="277" selection-start-column="37" selection-end-line="277" selection-end-column="37" />
           <folding>
             <marker date="1452655998000" expanded="true" signature="313:418" ph="SELECT * FRO... ${$global-&gt;ecs-&gt;table('payment')}" />
             <marker date="1452655998000" expanded="true" signature="1012:1119" ph="SELECT log_i... ${$global-&gt;ecs-&gt;table('pay_log')}" />
@@ -666,27 +667,27 @@
     <entry file="file://$PROJECT_DIR$/respond.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="60" />
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="151" column="16" lean-forward="false" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="47" />
+        <state relative-caret-position="364">
+          <caret line="135" column="54" lean-forward="true" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="54" />
           <folding>
-            <marker date="1495626929000" expanded="true" signature="2019:2721" ph="..." />
-            <marker date="1495626929000" expanded="true" signature="2765:2782" ph="..." />
-            <marker date="1495626929000" expanded="true" signature="2829:2854" ph="..." />
+            <marker date="1495627943000" expanded="true" signature="2019:2721" ph="..." />
+            <marker date="1495627943000" expanded="true" signature="2765:2782" ph="..." />
+            <marker date="1495627943000" expanded="true" signature="2829:2854" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+        <state relative-caret-position="463">
+          <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
           <folding />
         </state>
       </provider>
