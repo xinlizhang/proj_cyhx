@@ -58,7 +58,7 @@ class RespondController extends CommonController
                     $this->assign('shop_url', __URL__);
                     $this->display('respond.dwt');
                 }
-                $msg = ($_SERVER['PAY_RESULT']) ? L('pay_success') : L('pay_fail');
+                $msg = L('pay_success');
 
             } else {
                 $msg = L('pay_not_exist');
