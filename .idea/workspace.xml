@@ -57,13 +57,23 @@
       <file leaf-file-name="wxpay.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="159" column="29" lean-forward="false" selection-start-line="159" selection-start-column="29" selection-end-line="159" selection-end-column="29" />
+            <state relative-caret-position="-763">
+              <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
               <folding>
-                <marker date="1495602478000" expanded="true" signature="2120:2822" ph="..." />
-                <marker date="1495602478000" expanded="true" signature="2866:2883" ph="..." />
-                <marker date="1495602478000" expanded="true" signature="2930:2955" ph="..." />
+                <marker date="1495603141000" expanded="true" signature="2120:2822" ph="..." />
+                <marker date="1495603141000" expanded="true" signature="2866:2883" ph="..." />
+                <marker date="1495603141000" expanded="true" signature="2930:2955" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alipay.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/payment/alipay.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="121" column="18" lean-forward="false" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,8 +101,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wechat_id</find>
-      <find>'enable = 1 and command = &quot;register_remind</find>
       <find>get_session_id</find>
       <find>$search_keywords = C('sea</find>
       <find>本地</find>
@@ -121,6 +129,8 @@
       <find>$data</find>
       <find>get_payment</find>
       <find>postXmlCurl</find>
+      <find>parameters</find>
+      <find>-&gt;payment</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -265,12 +275,12 @@
       <workItem from="1495431661183" duration="23000" />
       <workItem from="1495515568973" duration="1369000" />
       <workItem from="1495536024250" duration="3546000" />
-      <workItem from="1495545649360" duration="3198000" />
+      <workItem from="1495545649360" duration="3933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8300000" />
+    <option name="totallyTimeSpent" value="9035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -543,14 +553,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/payment/alipay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="121" column="18" lean-forward="false" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="159" column="29" lean-forward="false" selection-start-line="159" selection-start-column="29" selection-end-line="159" selection-end-column="29" />
+        <state relative-caret-position="-763">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
           <folding>
-            <marker date="1495602478000" expanded="true" signature="2120:2822" ph="..." />
-            <marker date="1495602478000" expanded="true" signature="2866:2883" ph="..." />
-            <marker date="1495602478000" expanded="true" signature="2930:2955" ph="..." />
+            <marker date="1495603141000" expanded="true" signature="2120:2822" ph="..." />
+            <marker date="1495603141000" expanded="true" signature="2866:2883" ph="..." />
+            <marker date="1495603141000" expanded="true" signature="2930:2955" ph="..." />
           </folding>
         </state>
       </provider>

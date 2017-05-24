@@ -127,6 +127,7 @@ class wxpay
             if ($wxsign == $sign) {
                 // 交易成功
                 if ($postdata['result_code'] == 'SUCCESS') {
+                    $this->payResult = true;
                     // 获取log_id
                     $out_trade_no = explode('B', $postdata['out_trade_no']);
                     $log_id = $out_trade_no[1]; // 订单号log_id
@@ -157,7 +158,6 @@ class wxpay
                     }
                 }
                 $returndata['return_code'] = 'SUCCESS';
-                $this->payResult = true;
             } else {
                 $returndata['return_code'] = 'FAIL';
                 $returndata['return_msg'] = '签名失败';
