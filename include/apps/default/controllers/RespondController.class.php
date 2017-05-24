@@ -53,6 +53,10 @@ class RespondController extends CommonController
 
                 if($this->data['type'] == 'notify'){
                     $_SERVER['PAY_RESULT'] = @$payobj->notify($this->data);
+                    $msg = ($_SERVER['PAY_RESULT']) ? L('pay_success') : L('pay_fail');
+                    $this->assign('message', $msg);
+                    $this->assign('shop_url', __URL__);
+                    $this->display('respond.dwt');
                 }
                 $msg = ($_SERVER['PAY_RESULT']) ? L('pay_success') : L('pay_fail');
 
