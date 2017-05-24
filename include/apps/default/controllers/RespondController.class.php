@@ -52,7 +52,7 @@ class RespondController extends CommonController
 //                $msg = (@$payobj->callback($this->data)) ? L('pay_success') : L('pay_fail');
 
                 if($this->data['type'] == 'notify'){
-                    $msg = (@$payobj->notify($this->data)) ? L('pay_success') : L('pay_fail');
+//                    $msg = (@$payobj->notify($this->data)) ? L('pay_success') : L('pay_fail');
                 }
 
             } else {
