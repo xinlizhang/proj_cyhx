@@ -177,7 +177,7 @@ class wxpay
         $xml .= "</xml>";
 
         echo $xml;
-        exit();
+//        exit();
     }
 
     function trimString($value)
