@@ -17,8 +17,8 @@
       <file leaf-file-name="RespondController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="451">
+              <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -27,12 +27,44 @@
       <file leaf-file-name="wxpay.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="170" column="44" lean-forward="false" selection-start-line="170" selection-start-column="40" selection-end-line="170" selection-end-column="44" />
+            <state relative-caret-position="81">
+              <caret line="145" column="54" lean-forward="false" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="54" />
               <folding>
                 <marker date="1495624503000" expanded="true" signature="2120:2822" ph="..." />
                 <marker date="1495624503000" expanded="true" signature="2866:2883" ph="..." />
                 <marker date="1495624503000" expanded="true" signature="2930:2955" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="respond.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/respond.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payment_helper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/helpers/payment_helper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="19" />
+              <folding>
+                <marker date="1452655998000" expanded="true" signature="313:418" ph="SELECT * FRO... ${$global-&gt;ecs-&gt;table('payment')}" />
+                <marker date="1452655998000" expanded="true" signature="1012:1119" ph="SELECT log_i... ${$global-&gt;ecs-&gt;table('pay_log')}" />
+                <marker date="1452655998000" expanded="true" signature="1274:1364" ph="SELECT order... ${$global-&gt;ecs-&gt;table('order_info')}" />
+                <marker date="1452655998000" expanded="true" signature="1516:1608" ph="SELECT log_i... ${$global-&gt;ecs-&gt;table('pay_log')}" />
+                <marker date="1452655998000" expanded="true" signature="1867:1960" ph="SELECT goods... ${$global-&gt;ecs-&gt;table('order_goods')}" />
+                <marker date="1452655998000" expanded="true" signature="2316:2418" ph="SELECT order... ${$global-&gt;ecs-&gt;table('pay_log')}" />
+                <marker date="1452655998000" expanded="true" signature="3002:3095" ph="SELECT * FRO... ${$global-&gt;ecs-&gt;table('pay_log')}" />
+                <marker date="1452655998000" expanded="true" signature="5483:5493" ph="..." />
+                <marker date="1452655998000" expanded="true" signature="6656:6778" ph="SELECT `id` ${$global-&gt;ecs-&gt;table('user_account')}" />
+                <marker date="1452655998000" expanded="true" signature="7266:7397" ph="SELECT user_... ${$global-&gt;ecs-&gt;table('user_account')}" />
+                <marker date="1452655998000" expanded="true" signature="8089:8199" ph="SELECT pay_t... ${$global-&gt;ecs-&gt;table('order_info')}" />
               </folding>
             </state>
           </provider>
@@ -48,12 +80,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/apps/default/languages/zh_cn/common.php">
+      <file leaf-file-name="CommonController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/CommonController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5850">
-              <caret line="390" column="8" lean-forward="false" selection-start-line="390" selection-start-column="8" selection-end-line="390" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="-736">
+              <caret line="97" column="21" lean-forward="true" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+              <folding>
+                <marker date="1495476178000" expanded="true" signature="2813:2864" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,16 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>本c支付失败</find>
-      <find>本支付失败</find>
-      <find>本ci支付失败</find>
-      <find>callback</find>
-      <find>$data['status']</find>
-      <find>b</find>
-      <find>ben ci</find>
-      <find>本次</find>
-      <find>本次zhi</find>
-      <find>本次zhi fu</find>
       <find>本次支付</find>
       <find>本次支付s</find>
       <find>本次支付shi b</find>
@@ -131,6 +155,16 @@
       <find>index</find>
       <find>index()</find>
       <find>static</find>
+      <find>bootstrap</find>
+      <find>re</find>
+      <find>respo</find>
+      <find>respon</find>
+      <find>respond</find>
+      <find>respond.</find>
+      <find>respond.p</find>
+      <find>respond.php</find>
+      <find>return_url</find>
+      <find>WechatController</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -190,52 +224,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proj_cyhx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proj_cyhx" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proj_cyhx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proj_cyhx" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="payment" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proj_cyhx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proj_cyhx" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -276,25 +264,25 @@
       <workItem from="1495515568973" duration="1369000" />
       <workItem from="1495536024250" duration="3546000" />
       <workItem from="1495545649360" duration="3933000" />
-      <workItem from="1495624044747" duration="1439000" />
+      <workItem from="1495624044747" duration="1921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10474000" />
+    <option name="totallyTimeSpent" value="10956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -532,13 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/apps/admin/controllers/WechatController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="1968" column="7" lean-forward="true" selection-start-line="1968" selection-start-column="7" selection-end-line="1968" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -597,32 +578,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/CommonController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-939">
-          <caret line="97" column="21" lean-forward="true" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
-          <folding>
-            <marker date="1495476178000" expanded="true" signature="2813:2864" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
           <caret line="89" column="32" lean-forward="false" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
           <folding>
             <element signature="e#7#610#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/respond.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#7#603#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -635,18 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="170" column="44" lean-forward="false" selection-start-line="170" selection-start-column="40" selection-end-line="170" selection-end-column="44" />
-          <folding>
-            <marker date="1495624503000" expanded="true" signature="2120:2822" ph="..." />
-            <marker date="1495624503000" expanded="true" signature="2866:2883" ph="..." />
-            <marker date="1495624503000" expanded="true" signature="2930:2955" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/vendor/PHPExcel/Calculation/Functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -655,10 +604,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/CommonController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736">
+          <caret line="97" column="21" lean-forward="true" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+          <folding>
+            <marker date="1495476178000" expanded="true" signature="2813:2864" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/helpers/payment_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <marker date="1452655998000" expanded="true" signature="313:418" ph="SELECT * FRO... ${$global-&gt;ecs-&gt;table('payment')}" />
+            <marker date="1452655998000" expanded="true" signature="1012:1119" ph="SELECT log_i... ${$global-&gt;ecs-&gt;table('pay_log')}" />
+            <marker date="1452655998000" expanded="true" signature="1274:1364" ph="SELECT order... ${$global-&gt;ecs-&gt;table('order_info')}" />
+            <marker date="1452655998000" expanded="true" signature="1516:1608" ph="SELECT log_i... ${$global-&gt;ecs-&gt;table('pay_log')}" />
+            <marker date="1452655998000" expanded="true" signature="1867:1960" ph="SELECT goods... ${$global-&gt;ecs-&gt;table('order_goods')}" />
+            <marker date="1452655998000" expanded="true" signature="2316:2418" ph="SELECT order... ${$global-&gt;ecs-&gt;table('pay_log')}" />
+            <marker date="1452655998000" expanded="true" signature="3002:3095" ph="SELECT * FRO... ${$global-&gt;ecs-&gt;table('pay_log')}" />
+            <marker date="1452655998000" expanded="true" signature="5483:5493" ph="..." />
+            <marker date="1452655998000" expanded="true" signature="6656:6778" ph="SELECT `id` ${$global-&gt;ecs-&gt;table('user_account')}" />
+            <marker date="1452655998000" expanded="true" signature="7266:7397" ph="SELECT user_... ${$global-&gt;ecs-&gt;table('user_account')}" />
+            <marker date="1452655998000" expanded="true" signature="8089:8199" ph="SELECT pay_t... ${$global-&gt;ecs-&gt;table('order_info')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/respond.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/apps/admin/controllers/WechatController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8789">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <marker date="1452656002000" expanded="true" signature="11982:12324" ph="SELECT u.*, ${$this-&gt;model-&gt;pre}" />
+            <marker date="1452656002000" expanded="true" signature="14136:14487" ph="SELECT u.*, ${$this-&gt;model-&gt;pre}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="145" column="54" lean-forward="false" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="54" />
+          <folding>
+            <marker date="1495624503000" expanded="true" signature="2120:2822" ph="..." />
+            <marker date="1495624503000" expanded="true" signature="2866:2883" ph="..." />
+            <marker date="1495624503000" expanded="true" signature="2930:2955" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="451">
+          <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
           <folding />
         </state>
       </provider>
