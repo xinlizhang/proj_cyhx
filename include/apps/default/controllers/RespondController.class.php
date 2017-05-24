@@ -52,7 +52,7 @@ class RespondController extends CommonController
 //                $msg = (@$payobj->callback($this->data)) ? L('pay_success') : L('pay_fail');
 
                 $msg = ($_SESSION['PAY_RESULT'] == true) ? L('pay_success') : L('pay_fail');
-                $msg = $msg . $_SESSION['PAY_RESULT'];
+                $msg = $msg . "--" . $_SESSION['PAY_RESULT'];
 
             } else {
                 $msg = L('pay_not_exist');

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c913e9b9-62e2-4b19-9d88-8e21778bf9b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php" afterPath="$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/payment/wxpay.php" afterPath="$PROJECT_DIR$/plugins/payment/wxpay.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +17,18 @@
       <file leaf-file-name="RespondController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+            <state relative-caret-position="448">
+              <caret line="53" column="33" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="respond.dwt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default/respond.dwt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -28,7 +37,7 @@
       <file leaf-file-name="wxpay.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="328">
               <caret line="151" column="25" lean-forward="false" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
               <folding>
                 <marker date="1495626929000" expanded="true" signature="2019:2721" ph="..." />
@@ -52,8 +61,8 @@
       <file leaf-file-name="payment_helper.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/helpers/payment_helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="519">
+              <caret line="277" column="37" lean-forward="true" selection-start-line="277" selection-start-column="37" selection-end-line="277" selection-end-column="37" />
               <folding>
                 <marker date="1452655998000" expanded="true" signature="313:418" ph="SELECT * FRO... ${$global-&gt;ecs-&gt;table('payment')}" />
                 <marker date="1452655998000" expanded="true" signature="1012:1119" ph="SELECT log_i... ${$global-&gt;ecs-&gt;table('pay_log')}" />
@@ -136,7 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>本次支付shi b</find>
       <find>本次支付shi ba</find>
       <find>本次支付shi bai</find>
       <find>本次支付失败</find>
@@ -161,11 +169,12 @@
       <find>respond.</find>
       <find>respond.p</find>
       <find>respond.php</find>
-      <find>return_url</find>
       <find>WechatController</find>
       <find>$_SERVER</find>
       <find>$payResult</find>
       <find>payResult</find>
+      <find>pay_success</find>
+      <find>return_url</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -233,7 +242,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="package.j&#9;ACTION&#9;NewPackageJsonFile" />
+    <property name="SearchEverywhereHistoryKey" value="respond.dwt&#9;FILE&#9;file:///Users/zhangxinli/Documents/Projects/proj_cyhx/themes/default/respond.dwt&#10;package.j&#9;ACTION&#9;NewPackageJsonFile" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -265,12 +274,12 @@
       <workItem from="1495515568973" duration="1369000" />
       <workItem from="1495536024250" duration="3546000" />
       <workItem from="1495545649360" duration="3933000" />
-      <workItem from="1495624044747" duration="2713000" />
+      <workItem from="1495624044747" duration="3130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11748000" />
+    <option name="totallyTimeSpent" value="12165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -615,10 +624,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/apps/admin/controllers/WechatController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8789">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <marker date="1452656002000" expanded="true" signature="11982:12324" ph="SELECT u.*, ${$this-&gt;model-&gt;pre}" />
+            <marker date="1452656002000" expanded="true" signature="14136:14487" ph="SELECT u.*, ${$this-&gt;model-&gt;pre}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/respond.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/helpers/payment_helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="519">
+          <caret line="277" column="37" lean-forward="true" selection-start-line="277" selection-start-column="37" selection-end-line="277" selection-end-column="37" />
           <folding>
             <marker date="1452655998000" expanded="true" signature="313:418" ph="SELECT * FRO... ${$global-&gt;ecs-&gt;table('payment')}" />
             <marker date="1452655998000" expanded="true" signature="1012:1119" ph="SELECT log_i... ${$global-&gt;ecs-&gt;table('pay_log')}" />
@@ -643,20 +671,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/apps/admin/controllers/WechatController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8789">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <marker date="1452656002000" expanded="true" signature="11982:12324" ph="SELECT u.*, ${$this-&gt;model-&gt;pre}" />
-            <marker date="1452656002000" expanded="true" signature="14136:14487" ph="SELECT u.*, ${$this-&gt;model-&gt;pre}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
+        <state relative-caret-position="328">
           <caret line="151" column="25" lean-forward="false" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
           <folding>
             <marker date="1495626929000" expanded="true" signature="2019:2721" ph="..." />
@@ -668,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        <state relative-caret-position="448">
+          <caret line="53" column="33" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="33" />
           <folding />
         </state>
       </provider>
