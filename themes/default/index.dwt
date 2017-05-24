@@ -46,8 +46,8 @@
 </div-->
 
 </script>
-<!--div class="index-main comWidth">
-    <div class="swiper-container">
+<!div class="index-main comWidth">
+    <!--div class="swiper-container">
       <div class="swiper-wrapper">
         {insert name='ads' id=255 num=3}
       </div>
@@ -79,18 +79,18 @@
       <ul class="index-more-list">
       <!-- #BeginLibraryItem "/library/cat_goods.lbi" --><!-- #EndLibraryItem -->
       </ul>
-  </div>
+  </div-->
 
 	<div class="index-more">
   	<div class="index-more-icon">
-      	<span>更多惊喜</span>
+      	<!--span>更多惊喜</span-->
       </div>
       <ul class="index-more-list" id="J_ItemList">
         <div class="single_item"></div>
         <a href="javascript:;" style="text-align:center" class="get_more"></a>
       </ul>
   </div>
-</div-->
+</div>
 
 <footer class="index-footer comWidth">
 	<!-- #BeginLibraryItem "/library/page_index_menu.lbi" --><!-- #EndLibraryItem -->
