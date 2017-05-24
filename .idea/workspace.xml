@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c913e9b9-62e2-4b19-9d88-8e21778bf9b9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php" afterPath="$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/payment/wxpay.php" afterPath="$PROJECT_DIR$/plugins/payment/wxpay.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RespondController.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RespondController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="591">
+              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -54,15 +55,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wxpay.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wxpay.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1182">
-              <caret line="180" column="5" lean-forward="true" selection-start-line="180" selection-start-column="5" selection-end-line="180" selection-end-column="5" />
+            <state relative-caret-position="206">
+              <caret line="169" column="23" lean-forward="true" selection-start-line="169" selection-start-column="23" selection-end-line="169" selection-end-column="23" />
               <folding>
-                <marker date="1495624337000" expanded="true" signature="2120:2822" ph="..." />
-                <marker date="1495624337000" expanded="true" signature="2866:2883" ph="..." />
-                <marker date="1495624337000" expanded="true" signature="2930:2955" ph="..." />
+                <marker date="1495624503000" expanded="true" signature="2120:2822" ph="..." />
+                <marker date="1495624503000" expanded="true" signature="2866:2883" ph="..." />
+                <marker date="1495624503000" expanded="true" signature="2930:2955" ph="..." />
               </folding>
             </state>
           </provider>
@@ -146,8 +147,8 @@
         <option value="$PROJECT_DIR$/respond.php" />
         <option value="$PROJECT_DIR$/respondwx.php" />
         <option value="$PROJECT_DIR$/include/apps/default/controllers/CommonController.class.php" />
-        <option value="$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php" />
         <option value="$PROJECT_DIR$/plugins/payment/wxpay.php" />
+        <option value="$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php" />
       </list>
     </option>
   </component>
@@ -276,12 +277,12 @@
       <workItem from="1495515568973" duration="1369000" />
       <workItem from="1495536024250" duration="3546000" />
       <workItem from="1495545649360" duration="3933000" />
-      <workItem from="1495624044747" duration="279000" />
+      <workItem from="1495624044747" duration="499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9314000" />
+    <option name="totallyTimeSpent" value="9534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -371,9 +372,9 @@
         <state relative-caret-position="450">
           <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
           <folding>
-            <marker date="1495624337000" expanded="true" signature="2120:2822" ph="..." />
-            <marker date="1495624337000" expanded="true" signature="2866:2883" ph="..." />
-            <marker date="1495624337000" expanded="true" signature="2930:2955" ph="..." />
+            <marker date="1495624503000" expanded="true" signature="2120:2822" ph="..." />
+            <marker date="1495624503000" expanded="true" signature="2866:2883" ph="..." />
+            <marker date="1495624503000" expanded="true" signature="2930:2955" ph="..." />
           </folding>
         </state>
       </provider>
@@ -615,23 +616,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php">
+    <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="206">
+          <caret line="169" column="23" lean-forward="true" selection-start-line="169" selection-start-column="23" selection-end-line="169" selection-end-column="23" />
+          <folding>
+            <marker date="1495624503000" expanded="true" signature="2120:2822" ph="..." />
+            <marker date="1495624503000" expanded="true" signature="2866:2883" ph="..." />
+            <marker date="1495624503000" expanded="true" signature="2930:2955" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/payment/wxpay.php">
+    <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/RespondController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1182">
-          <caret line="180" column="5" lean-forward="true" selection-start-line="180" selection-start-column="5" selection-end-line="180" selection-end-column="5" />
-          <folding>
-            <marker date="1495624337000" expanded="true" signature="2120:2822" ph="..." />
-            <marker date="1495624337000" expanded="true" signature="2866:2883" ph="..." />
-            <marker date="1495624337000" expanded="true" signature="2930:2955" ph="..." />
-          </folding>
+        <state relative-caret-position="591">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

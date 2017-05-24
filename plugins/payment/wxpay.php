@@ -177,6 +177,7 @@ class wxpay
         $xml .= "</xml>";
 
         echo $xml;
+        return $this->payResult;
 //        exit();
     }
 

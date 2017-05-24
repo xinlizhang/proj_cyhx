@@ -46,10 +46,15 @@ class RespondController extends CommonController
                 include_once($plugin_file);
                 $payobj = new $this->data['code']();
                 // 处理异步请求
+//                if($this->data['type'] == 'notify'){
+//                    @$payobj->notify($this->data);
+//                }
+//                $msg = (@$payobj->callback($this->data)) ? L('pay_success') : L('pay_fail');
+
                 if($this->data['type'] == 'notify'){
-                    @$payobj->notify($this->data);
+                    $msg = (@$payobj->notify($this->data)) ? L('pay_success') : L('pay_fail');
                 }
-                $msg = (@$payobj->callback($this->data)) ? L('pay_success') : L('pay_fail');
+
             } else {
                 $msg = L('pay_not_exist');
             }
