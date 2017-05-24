@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c913e9b9-62e2-4b19-9d88-8e21778bf9b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/apps/admin/config/config.php" afterPath="$PROJECT_DIR$/include/apps/admin/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/templates/index.htm" afterPath="$PROJECT_DIR$/admin/templates/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/languages/zh_cn/admin/common.php" afterPath="$PROJECT_DIR$/include/languages/zh_cn/admin/common.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +14,41 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="common.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/languages/zh_cn/admin/common.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-ui-1.10.1.custom.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default/statics/css/jquery-ui-1.10.1.custom.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="4" column="4769" lean-forward="false" selection-start-line="4" selection-start-column="4769" selection-end-line="4" selection-end-column="4769" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/templates/index.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="227" column="38" lean-forward="false" selection-start-line="227" selection-start-column="38" selection-end-line="227" selection-end-column="38" />
+              <folding>
+                <marker date="1495630766000" expanded="true" signature="2824:2830" ph=" " />
+                <marker date="1495630766000" expanded="true" signature="3187:3193" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,23 +59,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>re</find>
-      <find>respo</find>
-      <find>respon</find>
-      <find>respond</find>
-      <find>respond.</find>
-      <find>respond.p</find>
-      <find>respond.php</find>
-      <find>WechatController</find>
-      <find>$_SERVER</find>
-      <find>$payResult</find>
-      <find>payResult</find>
-      <find>pay_success</find>
-      <find>return_url</find>
-      <find>$vgoods</find>
-      <find>fa</find>
-      <find>fan hui</find>
-      <find>返回</find>
       <find>返回shou ye</find>
       <find>返回首页</find>
       <find>back_home</find>
@@ -54,6 +72,23 @@
       <find>ECTOUCHgu</find>
       <find>ECTOUCHguan li</find>
       <find>ECTOUCH管理</find>
+      <find>ECTOUC管理</find>
+      <find>ECTOU管理</find>
+      <find>ECTO管理</find>
+      <find>ECToou管理</find>
+      <find>ECToo管理</find>
+      <find>ECTouc管理</find>
+      <find>ECT管理</find>
+      <find>ECTo管理</find>
+      <find>ECTou管理</find>
+      <find>ECTouch管理</find>
+      <find>title</find>
+      <find>&lt;</find>
+      <find>&lt;!</find>
+      <find>&lt;!--</find>
+      <find>&lt;!--</find>
+      <find>&lt;!-- Title</find>
+      <find>&lt;!-- Title</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -74,6 +109,8 @@
         <option value="$PROJECT_DIR$/themes/default/respond.dwt" />
         <option value="$PROJECT_DIR$/themes/default/index.dwt" />
         <option value="$PROJECT_DIR$/include/apps/admin/config/config.php" />
+        <option value="$PROJECT_DIR$/include/languages/zh_cn/admin/common.php" />
+        <option value="$PROJECT_DIR$/admin/templates/index.htm" />
       </list>
     </option>
   </component>
@@ -188,17 +225,18 @@
       <workItem from="1495515568973" duration="1369000" />
       <workItem from="1495536024250" duration="3546000" />
       <workItem from="1495545649360" duration="3933000" />
-      <workItem from="1495624044747" duration="5487000" />
+      <workItem from="1495624044747" duration="5823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14522000" />
+    <option name="totallyTimeSpent" value="14858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -625,6 +663,33 @@
         <state relative-caret-position="254">
           <caret line="121" column="18" lean-forward="false" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/languages/zh_cn/admin/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/statics/css/jquery-ui-1.10.1.custom.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="4" column="4769" lean-forward="false" selection-start-line="4" selection-start-column="4769" selection-end-line="4" selection-end-column="4769" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="227" column="38" lean-forward="false" selection-start-line="227" selection-start-column="38" selection-end-line="227" selection-end-column="38" />
+          <folding>
+            <marker date="1495630766000" expanded="true" signature="2824:2830" ph=" " />
+            <marker date="1495630766000" expanded="true" signature="3187:3193" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>
