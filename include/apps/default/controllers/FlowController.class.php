@@ -1003,11 +1003,11 @@ class FlowController extends CommonController {
 
         // 处理接收信息
         $how_oos = I('post.how_oos', 0);
-        $card_message = I('post.card_message', trim, '');
+        $card_message = I('post.card_message', '', 'htmlspecialchars');
         $inv_type = I('post.inv_type', '');
-        $inv_payee = I('post.inv_payee', trim, '');
-        $inv_content = I('post.inv_content', trim,'');
-        $postscript = I('post.postscript',trim, '');
+        $inv_payee = I('post.inv_payee', '', 'htmlspecialchars');
+        $inv_content = I('post.inv_content', '','htmlspecialchars');
+        $postscript = I('post.postscript','', 'htmlspecialchars');
         $oos = L('oos.' . $how_oos);
         // 订单信息
         $order = array(
