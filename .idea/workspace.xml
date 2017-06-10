@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c913e9b9-62e2-4b19-9d88-8e21778bf9b9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/apps/default/controllers/FlowController.class.php" afterPath="$PROJECT_DIR$/include/apps/default/controllers/FlowController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/apps/default/languages/zh_cn/common.php" afterPath="$PROJECT_DIR$/include/apps/default/languages/zh_cn/common.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/apps/default/languages/zh_cn/user.php" afterPath="$PROJECT_DIR$/include/apps/default/languages/zh_cn/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/languages/zh_cn/common.php" afterPath="$PROJECT_DIR$/include/languages/zh_cn/common.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/languages/zh_cn/user.php" afterPath="$PROJECT_DIR$/include/languages/zh_cn/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/flow_checkout.dwt" afterPath="$PROJECT_DIR$/themes/default/flow_checkout.dwt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,32 +23,9 @@
       <file leaf-file-name="common.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/languages/zh_cn/admin/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="444">
               <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-ui-1.10.1.custom.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/default/statics/css/jquery-ui-1.10.1.custom.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4769" lean-forward="false" selection-start-line="4" selection-start-column="4769" selection-end-line="4" selection-end-column="4769" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/templates/index.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="236" column="16" lean-forward="false" selection-start-line="236" selection-start-column="16" selection-end-line="236" selection-end-column="16" />
-              <folding>
-                <marker date="1495630766000" expanded="true" signature="2824:2830" ph=" " />
-                <marker date="1495630766000" expanded="true" signature="3187:3193" ph=" " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -57,29 +40,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flow_checkout.dwt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="flow_checkout.dwt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/default/flow_checkout.dwt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="373">
+              <caret line="196" column="16" lean-forward="true" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlowController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shopping_flow.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/shopping_flow.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2641">
+              <caret line="228" column="0" lean-forward="true" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlowController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/FlowController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="1005" column="49" lean-forward="false" selection-start-line="1005" selection-start-column="49" selection-end-line="1005" selection-end-column="49" />
+            <state relative-caret-position="198">
+              <caret line="1005" column="44" lean-forward="false" selection-start-line="1005" selection-start-column="32" selection-end-line="1005" selection-end-column="44" />
               <folding>
-                <marker date="1496986647000" expanded="true" signature="12902:13186" ph="SELECT b.goo... ${$this-&gt;model-&gt;pre}" />
-                <marker date="1496986647000" expanded="true" signature="14790:14937" ph="DELETE FROM " />
-                <marker date="1496986647000" expanded="true" signature="15030:15124" ph="DELETE FROM " />
-                <marker date="1496986647000" expanded="true" signature="15226:15321" ph="DELETE FROM " />
-                <marker date="1496986647000" expanded="true" signature="53995:54518" ph="INSERT INTO ${$this-&gt;model-&gt;pre}order_goods... " />
-                <marker date="1496986647000" expanded="true" signature="54228:54518" ph="SELECT '${$n... ${$this-&gt;model-&gt;pre}" />
-                <marker date="1496986647000" expanded="true" signature="57168:57373" ph="SELECT goods... ${$this-&gt;model-&gt;pre}" />
+                <marker date="1496987041000" expanded="true" signature="12902:13186" ph="SELECT b.goo... ${$this-&gt;model-&gt;pre}" />
+                <marker date="1496987041000" expanded="true" signature="14790:14937" ph="DELETE FROM " />
+                <marker date="1496987041000" expanded="true" signature="15030:15124" ph="DELETE FROM " />
+                <marker date="1496987041000" expanded="true" signature="15226:15321" ph="DELETE FROM " />
+                <marker date="1496987041000" expanded="true" signature="53914:54437" ph="INSERT INTO ${$this-&gt;model-&gt;pre}order_goods... " />
+                <marker date="1496987041000" expanded="true" signature="54147:54437" ph="SELECT '${$n... ${$this-&gt;model-&gt;pre}" />
+                <marker date="1496987041000" expanded="true" signature="57087:57292" ph="SELECT goods... ${$this-&gt;model-&gt;pre}" />
               </folding>
             </state>
           </provider>
@@ -88,7 +81,7 @@
       <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/base/helpers/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
+            <state relative-caret-position="16230">
               <caret line="1093" column="3" lean-forward="false" selection-start-line="1093" selection-start-column="3" selection-end-line="1093" selection-end-column="40" />
               <folding />
             </state>
@@ -98,7 +91,7 @@
       <file leaf-file-name="pcre.php" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/pcre/pcre.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
+            <state relative-caret-position="1230">
               <caret line="82" column="9" lean-forward="false" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
               <folding />
             </state>
@@ -116,8 +109,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ECTo管理</find>
-      <find>ECTou管理</find>
       <find>ECTouch管理</find>
       <find>title</find>
       <find>&lt;</find>
@@ -140,11 +131,13 @@
       <find>订单fu ya</find>
       <find>订单fu yan</find>
       <find>订单附言</find>
-      <find>order_postscript</find>
-      <find>checkOrderForm</find>
       <find>$default</find>
       <find>post.card_message</find>
       <find>$card_message</find>
+      <find>checkOrderForm</find>
+      <find>collapseFive</find>
+      <find>surplus</find>
+      <find>order_postscript</find>
       <find>card_message</find>
     </findStrings>
     <dirStrings>
@@ -169,6 +162,8 @@
         <option value="$PROJECT_DIR$/include/languages/zh_cn/admin/common.php" />
         <option value="$PROJECT_DIR$/admin/templates/index.htm" />
         <option value="$PROJECT_DIR$/include/apps/default/controllers/FlowController.class.php" />
+        <option value="$PROJECT_DIR$/include/apps/default/languages/zh_cn/common.php" />
+        <option value="$PROJECT_DIR$/themes/default/flow_checkout.dwt" />
       </list>
     </option>
   </component>
@@ -198,8 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,36 +215,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proj_cyhx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proj_cyhx" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
+              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="respond.dwt&#9;FILE&#9;file:///Users/zhangxinli/Documents/Projects/proj_cyhx/themes/default/respond.dwt&#10;package.j&#9;ACTION&#9;NewPackageJsonFile" />
+    <property name="SearchEverywhereHistoryKey" value="flow&#9;FILE&#9;file:///Users/zhangxinli/Documents/Projects/proj_cyhx/include/apps/default/controllers/FlowController.class.php&#10;respond.dwt&#9;FILE&#9;file:///Users/zhangxinli/Documents/Projects/proj_cyhx/themes/default/respond.dwt&#10;package.j&#9;ACTION&#9;NewPackageJsonFile" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -284,18 +261,19 @@
       <workItem from="1495536024250" duration="3546000" />
       <workItem from="1495545649360" duration="3933000" />
       <workItem from="1495624044747" duration="5876000" />
-      <workItem from="1496984773498" duration="1108000" />
+      <workItem from="1496984773498" duration="1287000" />
+      <workItem from="1497054432703" duration="1613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16019000" />
+    <option name="totallyTimeSpent" value="17811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27382874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27786753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -344,17 +322,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/templates/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3510">
-          <caret line="234" column="34" lean-forward="true" selection-start-line="234" selection-start-column="34" selection-end-line="234" selection-end-column="34" />
-          <folding>
-            <marker date="1495630766000" expanded="true" signature="2824:2830" ph=" " />
-            <marker date="1495630766000" expanded="true" signature="3187:3193" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/languages/zh_cn/shopping_flow.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -664,30 +631,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/languages/zh_cn/admin/common.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/pcre/pcre.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="1230">
+          <caret line="82" column="9" lean-forward="false" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/statics/css/jquery-ui-1.10.1.custom.min.css">
+    <entry file="file://$PROJECT_DIR$/include/base/helpers/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4769" lean-forward="false" selection-start-line="4" selection-start-column="4769" selection-end-line="4" selection-end-column="4769" />
+        <state relative-caret-position="16230">
+          <caret line="1093" column="3" lean-forward="false" selection-start-line="1093" selection-start-column="3" selection-end-line="1093" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/templates/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
+        <state relative-caret-position="496">
           <caret line="236" column="16" lean-forward="false" selection-start-line="236" selection-start-column="16" selection-end-line="236" selection-end-column="16" />
           <folding>
             <marker date="1495630766000" expanded="true" signature="2824:2830" ph=" " />
             <marker date="1495630766000" expanded="true" signature="3187:3193" ph=" " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/statics/css/jquery-ui-1.10.1.custom.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="4" column="4769" lean-forward="false" selection-start-line="4" selection-start-column="4769" selection-end-line="4" selection-end-column="4769" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/languages/zh_cn/admin/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -699,43 +682,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/flow_checkout.dwt">
+    <entry file="file://$PROJECT_DIR$/js/shopping_flow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/pcre/pcre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="82" column="9" lean-forward="false" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/base/helpers/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="1093" column="3" lean-forward="false" selection-start-line="1093" selection-start-column="3" selection-end-line="1093" selection-end-column="40" />
+        <state relative-caret-position="2641">
+          <caret line="228" column="0" lean-forward="true" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/FlowController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="1005" column="49" lean-forward="false" selection-start-line="1005" selection-start-column="49" selection-end-line="1005" selection-end-column="49" />
+        <state relative-caret-position="198">
+          <caret line="1005" column="44" lean-forward="false" selection-start-line="1005" selection-start-column="32" selection-end-line="1005" selection-end-column="44" />
           <folding>
-            <marker date="1496986647000" expanded="true" signature="12902:13186" ph="SELECT b.goo... ${$this-&gt;model-&gt;pre}" />
-            <marker date="1496986647000" expanded="true" signature="14790:14937" ph="DELETE FROM " />
-            <marker date="1496986647000" expanded="true" signature="15030:15124" ph="DELETE FROM " />
-            <marker date="1496986647000" expanded="true" signature="15226:15321" ph="DELETE FROM " />
-            <marker date="1496986647000" expanded="true" signature="53995:54518" ph="INSERT INTO ${$this-&gt;model-&gt;pre}order_goods... " />
-            <marker date="1496986647000" expanded="true" signature="54228:54518" ph="SELECT '${$n... ${$this-&gt;model-&gt;pre}" />
-            <marker date="1496986647000" expanded="true" signature="57168:57373" ph="SELECT goods... ${$this-&gt;model-&gt;pre}" />
+            <marker date="1496987041000" expanded="true" signature="12902:13186" ph="SELECT b.goo... ${$this-&gt;model-&gt;pre}" />
+            <marker date="1496987041000" expanded="true" signature="14790:14937" ph="DELETE FROM " />
+            <marker date="1496987041000" expanded="true" signature="15030:15124" ph="DELETE FROM " />
+            <marker date="1496987041000" expanded="true" signature="15226:15321" ph="DELETE FROM " />
+            <marker date="1496987041000" expanded="true" signature="53914:54437" ph="INSERT INTO ${$this-&gt;model-&gt;pre}order_goods... " />
+            <marker date="1496987041000" expanded="true" signature="54147:54437" ph="SELECT '${$n... ${$this-&gt;model-&gt;pre}" />
+            <marker date="1496987041000" expanded="true" signature="57087:57292" ph="SELECT goods... ${$this-&gt;model-&gt;pre}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/flow_checkout.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="196" column="16" lean-forward="true" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
