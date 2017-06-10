@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c913e9b9-62e2-4b19-9d88-8e21778bf9b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/apps/default/controllers/FlowController.class.php" afterPath="$PROJECT_DIR$/include/apps/default/controllers/FlowController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/apps/default/languages/zh_cn/common.php" afterPath="$PROJECT_DIR$/include/apps/default/languages/zh_cn/common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/apps/default/languages/zh_cn/user.php" afterPath="$PROJECT_DIR$/include/apps/default/languages/zh_cn/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/languages/zh_cn/common.php" afterPath="$PROJECT_DIR$/include/languages/zh_cn/common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/languages/zh_cn/user.php" afterPath="$PROJECT_DIR$/include/languages/zh_cn/user.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/flow_checkout.dwt" afterPath="$PROJECT_DIR$/themes/default/flow_checkout.dwt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +37,8 @@
       <file leaf-file-name="flow_checkout.dwt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/default/flow_checkout.dwt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="196" column="16" lean-forward="true" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="16" />
+            <state relative-caret-position="253">
+              <caret line="188" column="33" lean-forward="false" selection-start-line="188" selection-start-column="33" selection-end-line="188" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -63,16 +57,16 @@
       <file leaf-file-name="FlowController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/FlowController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="1005" column="44" lean-forward="false" selection-start-line="1005" selection-start-column="32" selection-end-line="1005" selection-end-column="44" />
+            <state relative-caret-position="318">
+              <caret line="1013" column="48" lean-forward="true" selection-start-line="1013" selection-start-column="48" selection-end-line="1013" selection-end-column="48" />
               <folding>
-                <marker date="1496987041000" expanded="true" signature="12902:13186" ph="SELECT b.goo... ${$this-&gt;model-&gt;pre}" />
-                <marker date="1496987041000" expanded="true" signature="14790:14937" ph="DELETE FROM " />
-                <marker date="1496987041000" expanded="true" signature="15030:15124" ph="DELETE FROM " />
-                <marker date="1496987041000" expanded="true" signature="15226:15321" ph="DELETE FROM " />
-                <marker date="1496987041000" expanded="true" signature="53914:54437" ph="INSERT INTO ${$this-&gt;model-&gt;pre}order_goods... " />
-                <marker date="1496987041000" expanded="true" signature="54147:54437" ph="SELECT '${$n... ${$this-&gt;model-&gt;pre}" />
-                <marker date="1496987041000" expanded="true" signature="57087:57292" ph="SELECT goods... ${$this-&gt;model-&gt;pre}" />
+                <marker date="1497057102000" expanded="true" signature="12902:13186" ph="SELECT b.goo... ${$this-&gt;model-&gt;pre}" />
+                <marker date="1497057102000" expanded="true" signature="14790:14937" ph="DELETE FROM " />
+                <marker date="1497057102000" expanded="true" signature="15030:15124" ph="DELETE FROM " />
+                <marker date="1497057102000" expanded="true" signature="15226:15321" ph="DELETE FROM " />
+                <marker date="1497057102000" expanded="true" signature="53914:54437" ph="INSERT INTO ${$this-&gt;model-&gt;pre}order_goods... " />
+                <marker date="1497057102000" expanded="true" signature="54147:54437" ph="SELECT '${$n... ${$this-&gt;model-&gt;pre}" />
+                <marker date="1497057102000" expanded="true" signature="57087:57292" ph="SELECT goods... ${$this-&gt;model-&gt;pre}" />
               </folding>
             </state>
           </provider>
@@ -161,9 +155,9 @@
         <option value="$PROJECT_DIR$/include/apps/admin/config/config.php" />
         <option value="$PROJECT_DIR$/include/languages/zh_cn/admin/common.php" />
         <option value="$PROJECT_DIR$/admin/templates/index.htm" />
-        <option value="$PROJECT_DIR$/include/apps/default/controllers/FlowController.class.php" />
         <option value="$PROJECT_DIR$/include/apps/default/languages/zh_cn/common.php" />
         <option value="$PROJECT_DIR$/themes/default/flow_checkout.dwt" />
+        <option value="$PROJECT_DIR$/include/apps/default/controllers/FlowController.class.php" />
       </list>
     </option>
   </component>
@@ -262,12 +256,12 @@
       <workItem from="1495545649360" duration="3933000" />
       <workItem from="1495624044747" duration="5876000" />
       <workItem from="1496984773498" duration="1287000" />
-      <workItem from="1497054432703" duration="1613000" />
+      <workItem from="1497054432703" duration="1722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17811000" />
+    <option name="totallyTimeSpent" value="17920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -692,24 +686,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/FlowController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="1005" column="44" lean-forward="false" selection-start-line="1005" selection-start-column="32" selection-end-line="1005" selection-end-column="44" />
+        <state relative-caret-position="318">
+          <caret line="1013" column="48" lean-forward="true" selection-start-line="1013" selection-start-column="48" selection-end-line="1013" selection-end-column="48" />
           <folding>
-            <marker date="1496987041000" expanded="true" signature="12902:13186" ph="SELECT b.goo... ${$this-&gt;model-&gt;pre}" />
-            <marker date="1496987041000" expanded="true" signature="14790:14937" ph="DELETE FROM " />
-            <marker date="1496987041000" expanded="true" signature="15030:15124" ph="DELETE FROM " />
-            <marker date="1496987041000" expanded="true" signature="15226:15321" ph="DELETE FROM " />
-            <marker date="1496987041000" expanded="true" signature="53914:54437" ph="INSERT INTO ${$this-&gt;model-&gt;pre}order_goods... " />
-            <marker date="1496987041000" expanded="true" signature="54147:54437" ph="SELECT '${$n... ${$this-&gt;model-&gt;pre}" />
-            <marker date="1496987041000" expanded="true" signature="57087:57292" ph="SELECT goods... ${$this-&gt;model-&gt;pre}" />
+            <marker date="1497057102000" expanded="true" signature="12902:13186" ph="SELECT b.goo... ${$this-&gt;model-&gt;pre}" />
+            <marker date="1497057102000" expanded="true" signature="14790:14937" ph="DELETE FROM " />
+            <marker date="1497057102000" expanded="true" signature="15030:15124" ph="DELETE FROM " />
+            <marker date="1497057102000" expanded="true" signature="15226:15321" ph="DELETE FROM " />
+            <marker date="1497057102000" expanded="true" signature="53914:54437" ph="INSERT INTO ${$this-&gt;model-&gt;pre}order_goods... " />
+            <marker date="1497057102000" expanded="true" signature="54147:54437" ph="SELECT '${$n... ${$this-&gt;model-&gt;pre}" />
+            <marker date="1497057102000" expanded="true" signature="57087:57292" ph="SELECT goods... ${$this-&gt;model-&gt;pre}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/default/flow_checkout.dwt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="196" column="16" lean-forward="true" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="16" />
+        <state relative-caret-position="253">
+          <caret line="188" column="33" lean-forward="false" selection-start-line="188" selection-start-column="33" selection-end-line="188" selection-end-column="33" />
           <folding />
         </state>
       </provider>
